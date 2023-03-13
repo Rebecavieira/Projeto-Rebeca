@@ -1,0 +1,18 @@
+.links{
+    text-decoration: none;
+    color: rgba(71, 71, 71, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    margin-right: 2rem;
+}
+
+
+.links:hover{
+    color: #C92071;
+    text-decoration: underline;
+    font-weight: bold;
+}

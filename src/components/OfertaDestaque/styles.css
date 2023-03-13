@@ -1,0 +1,88 @@
+*{  width: 100%;
+    margin: 0;}
+
+#ladoe{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+#img{
+    margin-top: 87px;
+    display: flex;
+    justify-content: center;
+}
+
+#elipse {
+    position: absolute;
+    width: 466px;
+    height: 466px;
+    background-image: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 60%);
+    border-radius: 50%;
+}
+
+#tenis {
+    position: absolute;
+    margin-top: 28px;
+    background-image: none;
+    width: 573px;
+    height: 330px;
+    display: flex;
+}
+
+#descricao{
+    margin-top: 106px;
+    padding: 0;
+    width: 40%;
+    font-style: normal;
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#oferta{
+    color: rgba(201, 32, 113, 1);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: left;
+}
+
+#ofertah1{
+    margin-top: 17px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #474747;
+}
+
+#ofertap{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.75px;
+    color: #474747;
+}
+
+.botao{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    background: #C92071;
+    color: white;
+    border-radius: 8px;
+    border: #C92071;
+}
+
+.botao:hover{
+    background: #7c1447;
+    transition: 300ms;
+}

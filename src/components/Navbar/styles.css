@@ -1,0 +1,36 @@
+#conjlogo{
+    margin-top: 42px;
+    margin-bottom: 48px;
+    display: flex;
+}
+
+#vetor{
+    height: 33px;
+    width: 33px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#logo{
+    width: 212px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36.3951px;
+    line-height: 44px;
+    letter-spacing: -0.01em;
+    color: #C92071;
+}
+
+#busca {
+    height: 60px;
+    width: 559px;
+    background: #474747;
+    opacity: 0.04;
+    border-radius: 8px;
+}
+
+#busca::placeholder{
+    color: #666666;
+}
