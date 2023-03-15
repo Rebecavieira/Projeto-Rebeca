@@ -1,7 +1,7 @@
-export default function ColecaoDestaque (){
-    return(
-        <div>
-            colecao destaque
-        </div>
-    );
+export default function ColecoesDestaque () {
+    return (
+        <>
+        destaque
+        </>
+    )
 }

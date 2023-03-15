@@ -1,14 +1,27 @@
-import {Link} from "react-router-dom";
+import { Container } from "@mui/material";
+import {Link, useLocation} from "react-router-dom";
 import './styles.css';
 
-export default function Menu (){
-    return(
-        <div className="container">
-           <Link className="links" to="/" id="home">Home</Link>
-           <Link className="links" to="/produtos" id="produtos">Produtos</Link> 
-           <Link className="links" to="/categorias" id="categorias">Categorias</Link> 
-           <Link className="links" to="/meus-pedidos" id="pedidos">Meus Pedidos</Link>  
+export default function Menu() {
+    const location = useLocation();
+
+    const isActive = (url) => {
+        if (location.pathname === url) {
+            return "active";
+        }
+
+        return "";
+    };
+
+    return (
+        <Container>
+        <div className="menu">
+            <Link to="/" className={isActive('/')}>Home</Link>
+            <Link to="/produtos" className={isActive('/produtos')}>Produtos</Link>
+            <Link to="/categorias" className={isActive('/categorias')}>Categorias</Link>
+            <Link to="/meus-pedidos" className={isActive('/meus-pedidos')}>Meus Pedidos</Link>
         </div>
-    );
+        </Container>
+    )
 }
 
