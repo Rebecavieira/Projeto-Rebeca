@@ -37,20 +37,53 @@
 }
 
 #img-tenis{
-    width: 900px;
+    width: 910px;
     height: 750px;
     left: 513.25px;
     top: 446.91px;
-    margin-top: -90px;
+    margin-top: -70px;
     margin-left: 20%;
+    margin-bottom: 10px;
+    bottom: auto;
 }
 
 #img-ornament{
+    margin-top: -480px;
+    margin-right: -10px;
     width: 140px;
     height: 140px;
     left: 1263px;
-    top: 272px;
-    margin-top: -30px;
-    right: 10px;
+    top: -20%;
 
+
+}
+
+.container-bolinha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #474747;
+    margin: 5px;
+}
+
+.bolinha.ativo{
+    background-color: #C92071;
+}
+
+#bloco-texto{
+    margin-top: 90px;
+}
+
+#card-slide {
+    padding: 50px 0px 15px 0px !important;
+}
+
+#card-slide-stack{
+    height: 580px !important;
 }

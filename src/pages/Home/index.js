@@ -4,6 +4,8 @@ import Menu from '../../components/Menu';
 import Carousel from '../../components/Carousel';
 import ColecoesDestaque from '../../components/ColecoesDestaque';
 import OfertaDestaque from '../../components/OfertaDestaque';
+import Footer from '../../components/Footer';
+import ColecoesDestaqueIcones from '../../components/ColecoesDestaqueIcones';
 
 
 export default function Home() {
@@ -13,7 +15,9 @@ export default function Home() {
             <Menu />
             <Carousel />
             <ColecoesDestaque />
+            <ColecoesDestaqueIcones/>
             <OfertaDestaque/>
+            <Footer/>
         </>
     )
 }
